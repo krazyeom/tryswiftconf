@@ -4,31 +4,241 @@
 			"date": "Wednesday, March 2nd",
 			"time": "09:00AM - 09:55AM",
 			"title": "Wake-up Coffee & Breakfast",
-			"speaker": ""
 		},
 		{
 			"date": "Wednesday, March 2nd",
 			"time": "10:00AM - 10:25AM",
-			"title": "",
 			"speaker": "Syo Ikeda"
 		},
 		{
 			"date": "Wednesday, March 2nd",
 			"time": "10:30AM - 10:55AM",
-			"title": "",
 			"speaker": "JP Simard"
 		},
 		{
 			"date": "Wednesday, March 2nd",
 			"time": "11:00AM - 11:25AM",
 			"title": "Coffee / Tea Break",
-			"speaker": ""
 		},
 		{
 			"date": "Wednesday, March 2nd",
 			"time": "11:30AM - 11:55AM",
-			"title": "",
 			"speaker": "Laura Savino"
+		},
+		{
+			"date": "Wednesday, March 2nd",
+			"time": "12:00PM - 12:25PM",
+			"speaker": "Boris Bügling"
+		},
+		{
+			"date": "Wednesday, March 2nd",
+			"time": "12:30PM - 12:55PM",
+			"speaker": "Laura Savino"
+		},
+		{
+			"date": "Wednesday, March 2nd",
+			"time": "01:00PM - 02:25PM",
+			"title": "Lunch"
+		},
+		{
+			"date": "Wednesday, March 2nd",
+			"time": "02:30PM - 02:55PM",
+			"speaker": "Yuta Koshizawa"
+		},
+		{
+			"date": "Wednesday, March 2nd",
+			"time": "03:00PM - 03:25PM",
+			"speaker": "Michele Titolo"
+		},
+		{
+			"date": "Wednesday, March 2nd",
+			"time": "03:30PM - 03:55PM",
+			"speaker": "Daniel Steinberg"
+		},
+		{
+			"date": "Wednesday, March 2nd",
+			"time": "04:00PM - 04:25PM",
+			"title": "Coffee / Tea Break"
+		},
+		{
+			"date": "Wednesday, March 2nd",
+			"time": "04:30PM - 04:55PM",
+			"speaker": "Tim Oliver"
+		},
+		{
+			"date": "Wednesday, March 2nd",
+			"time": "05:00PM - 05:25PM",
+			"speaker": "Stephanie Shupe"
+		},
+		{
+			"date": "Wednesday, March 2nd",
+			"time": "05:30PM - 05:55PM",
+			"speaker": "Cate Huston"
+		},
+		{
+			"date": "Wednesday, March 2nd",
+			"time": "06:00PM - 06:25PM",
+			"title": "Closing / Announcements"
+		},
+		{
+			"date": "Thursday, March 3rd",
+			"time": "09:00AM - 09:55AM",
+			"title": "Wake-up Coffee & Breakfast"
+		},
+		{
+			"date": "Thursday, March 3rd",
+			"time": "10:00AM - 10:25AM",
+			"speaker": "Ayaka Nonaka"
+		},
+		{
+			"date": "Thursday, March 3rd",
+			"time": "10:30AM - 10:55AM ",
+			"speaker": "Adam Bell"
+		},
+		{
+			"date": "Thursday, March 3rd",
+			"time": "11:00AM - 11:25AM",
+			"title": "Coffee / Tea Break"
+		},
+		{
+			"date": "Thursday, March 3rd",
+			"time": "11:30AM - 11:55AM",
+			"speaker": "Matthew Gillingham"
+		},
+		{
+			"date": "Thursday, March 3rd",
+			"time": "12:00PM - 12:25PM",
+			"speaker": "Rachel Bobbins"
+		},
+		{
+			"date": "Thursday, March 3rd",
+			"time": "12:30PM - 12:55PM ",
+			"speaker": "Himi Sato"
+		},
+		{
+			"date": "Thursday, March 3rd",
+			"time": "01:00PM - 02:25PM",
+			"title": "Lunch",
+		},
+		{
+			"date": "Thursday, March 3rd",
+			"time": "02:30PM - 02:55PM",
+			"speaker": "Daniel Eggert"
+		},
+		{
+			"date": "Thursday, March 3rd",
+			"time": "03:00PM - 03:25PM",
+			"speaker": "Novall Khan"
+		},
+		{
+			"date": "Thursday, March 3rd",
+			"time": "03:30PM - 03:55PM",
+			"speaker": "Jeff Hui"
+		},
+		{
+			"date": "Thursday, March 3rd",
+			"time": "04:00PM - 04:25PM",
+			"title": "Coffee / Tea Break"
+		},
+		{
+			"date": "Thursday, March 3rd",
+			"time": "04:30PM - 04:55PM",
+			"speaker": "Yosuke Ishikawa"
+		},
+		{
+			"date": "Thursday, March 3rd",
+			"time": "05:00PM - 05:25PM",
+			"speaker": "Maxim Cramer"
+		},
+		{
+			"date": "Thursday, March 3rd",
+			"time": "05:30PM - 05:55PM ",
+			"speaker": "Chris Eidhof"
+		},
+		{
+			"date": "Thursday, March 3rd",
+			"time": "06:00PM - 06:25PM",
+			"title": "Closing / Announcements",
+		},
+		{
+			"date": "Friday, March 4th",
+			"time": "09:00AM - 09:55AM",
+			"title": "Wake-up Coffee & Breakfast",
+		},
+		{
+			"date": "Friday, March 4th",
+			"time": "10:00AM - 10:25AM",
+			"speaker": "Hiroki Kato"
+		},
+		{
+			"date": "Friday, March 4th",
+			"time": "10:30AM - 10:55AM",
+			"speaker": "Natalia Berdys"
+		},
+		{
+			"date": "Friday, March 4th",
+			"time": "11:00AM - 11:25AM",
+			"speaker": "Coffee / Tea Break"
+		},
+		{
+			"date": "Friday, March 4th",
+			"time": "11:30AM - 11:55AM ",
+			"speaker": "Veronica Ray"
+		},
+		{
+			"date": "Friday, March 4th",
+			"time": "12:00PM - 12:25PM",
+			"speaker": "Hector Matos"
+		},
+		{
+			"date": "Friday, March 4th",
+			"time": "12:30PM - 12:55PM ",
+			"speaker": "Simon Gladman"
+		},
+		{
+			"date": "Friday, March 4th",
+			"time": "01:00PM - 02:25PM",
+			"title": "Lunch",
+		},
+		{
+			"date": "Friday, March 4th",
+			"time": "02:30PM - 02:55PM",
+			"speaker": "Diana Zmuda"
+		},
+		{
+			"date": "Friday, March 4th",
+			"time": "03:00PM - 03:25PM ",
+			"speaker": "Daniel Haight"
+		},
+		{
+			"date": "Friday, March 4th",
+			"time": "03:30PM - 03:55PM",
+			"speaker": "Helen Holmes"
+		},
+		{
+			"date": "Friday, March 4th",
+			"time": "04:00PM - 04:25PM",
+			"title": "Coffee / Tea Break",
+		},
+		{
+			"date": "Friday, March 4th",
+			"time": "04:30PM - 04:55PM",
+			"speaker": "Yasuhiro Inami"
+		},
+		{
+			"date": "Friday, March 4th",
+			"time": "05:00PM - 05:25PM",
+			"speaker": "Jesse Squires"
+		},
+		{
+			"date": "Friday, March 4th",
+			"time": "05:30PM - 05:55PM",
+			"speaker": "Ash Furrow"
+		},
+		{
+			"date": "Friday, March 4th",
+			"time": "06:00PM - 06:25PM",
+			"title": "Closing / Announcements",
 		}
 	],
 	"speakers": [

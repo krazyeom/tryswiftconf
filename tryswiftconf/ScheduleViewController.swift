@@ -26,8 +26,8 @@ class ScheduleViewController: UIViewController, UITableViewDelegate, UITableView
         let cell = UITableViewCell(style: .Subtitle, reuseIdentifier: "TalkIdentifier")
         let talk = appData.talks![indexPath.row]
 
-        cell.textLabel?.text = talk.title == "" ? talk.speaker : talk.title
-        cell.detailTextLabel?.text = talk.speaker == "" ? talk.time! : talk.time! + " – " + talk.speaker!
+        cell.textLabel?.text = talk.title == nil ? talk.speaker : talk.title
+        cell.detailTextLabel?.text = talk.time!
 
         return cell
     }
