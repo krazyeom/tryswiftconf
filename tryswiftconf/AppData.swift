@@ -3,11 +3,13 @@ import ObjectMapper
 
 struct AppData: Mappable {
     var talks: [Talk]?
+    var speakers: [Speaker]?
 
     init?(_ map: Map) {}
 
     mutating func mapping(map: Map) {
         talks <- map["talks"]
+        speakers <- map["speakers"]
     }
 
     func numberOfTalksOnDay(day: Int) -> Int {
@@ -39,5 +41,19 @@ struct Talk: Mappable {
         time <- map["time"]
         title <- map["title"]
         speaker <- map["speaker"]
+    }
+}
+
+struct Speaker: Mappable {
+    var name: String?
+    var twitter: String?
+    var intro: String?
+
+    init?(_ map: Map) {}
+
+    mutating func mapping(map: Map) {
+        name <- map["name"]
+        twitter <- map["twitter"]
+        intro <- map["intro"]
     }
 }

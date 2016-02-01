@@ -242,6 +242,11 @@
 		}
 	],
 	"speakers": [
+		{
+			"name": "Ash Furrow",
+			"twitter": "@ashfurrow",
+			"intro": "Ash Furrow is a Canadian iOS developer and author, currently working at Artsy. He has published four books, built many apps, and is a contributor to the open source community. On his blog, he writes about a range of topics, from interesting programming to explorations of analogue film photography."
+		},
 	]
 
 }
