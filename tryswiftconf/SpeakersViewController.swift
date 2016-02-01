@@ -17,6 +17,7 @@ class SpeakersViewController: UIViewController, UITableViewDelegate, UITableView
 
         cell.textLabel?.text = speaker.name
         cell.detailTextLabel?.text = speaker.twitter
+        cell.detailTextLabel?.textColor = .darkGrayColor()
 
         return cell
     }

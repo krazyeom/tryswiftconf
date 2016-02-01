@@ -19,6 +19,7 @@ class ScheduleViewController: UIViewController, UITableViewDelegate, UITableView
 
         cell.textLabel?.text = talk.title == nil ? talk.speaker : talk.title
         cell.detailTextLabel?.text = talk.time!
+        cell.detailTextLabel?.textColor = .darkGrayColor()
 
         return cell
     }
