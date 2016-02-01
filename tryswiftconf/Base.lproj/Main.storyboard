@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="6U6-gB-YmK">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TalkIdentifier" textLabel="Sjr-KX-9Jp" detailTextLabel="USn-6Q-O3Z" style="IBUITableViewCellStyleSubtitle" id="jHQ-Zo-m67">
@@ -54,10 +54,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="6U6-gB-YmK" secondAttribute="trailing" id="GY6-QE-s0g"/>
-                            <constraint firstItem="6U6-gB-YmK" firstAttribute="top" secondItem="tsR-hK-woN" secondAttribute="top" id="JMN-xL-uBo"/>
-                            <constraint firstItem="6U6-gB-YmK" firstAttribute="bottom" secondItem="4ug-Mw-9AY" secondAttribute="top" id="reX-8K-ATS"/>
-                            <constraint firstItem="6U6-gB-YmK" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" id="vNa-bL-q36"/>
+                            <constraint firstItem="6U6-gB-YmK" firstAttribute="top" secondItem="tsR-hK-woN" secondAttribute="top" id="0eU-LQ-Pxy"/>
+                            <constraint firstAttribute="trailing" secondItem="6U6-gB-YmK" secondAttribute="trailing" id="3QU-ad-pxX"/>
+                            <constraint firstAttribute="bottom" secondItem="6U6-gB-YmK" secondAttribute="bottom" id="E92-jf-QSx"/>
+                            <constraint firstItem="6U6-gB-YmK" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" id="GUQ-lv-XBA"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="JkX-Cv-ZS2"/>
