@@ -9,6 +9,21 @@ struct AppData: Mappable {
     mutating func mapping(map: Map) {
         talks <- map["talks"]
     }
+
+    func numberOfTalksOnDay(day: Int) -> Int {
+        guard let _talks = talks?.filter({ (talk) -> Bool in
+            switch day {
+            case 0: return talk.date == "Wednesday, March 2nd"
+            case 1: return talk.date == "Thursday, March 3rd"
+            case 2: return talk.date == "Friday, March 4th"
+            default: return false
+            }
+        }) else {
+            return 0
+        }
+
+        return _talks.count
+    }
 }
 
 struct Talk: Mappable {

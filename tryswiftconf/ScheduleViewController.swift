@@ -32,7 +32,20 @@ class ScheduleViewController: UIViewController, UITableViewDelegate, UITableView
         return cell
     }
 
+    func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        switch section {
+        case 0: return "WEDNESDAY, MARCH 2ND"
+        case 1: return "THURSDAY, MARCH 3RD"
+        case 2: return "FRIDAY, MARCH 4TH"
+        default: return nil
+        }
+    }
+
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return 3
+    }
+
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return (appData.talks?.count)!
+        return appData.numberOfTalksOnDay(section)
     }
 }
