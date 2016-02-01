@@ -1,11 +1,3 @@
-//
-//  tryswiftconfTests.swift
-//  tryswiftconfTests
-//
-//  Created by Doan Truong Thi on 2/1/16.
-//
-//
-
 import XCTest
 @testable import tryswiftconf
 

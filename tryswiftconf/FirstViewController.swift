@@ -1,11 +1,3 @@
-//
-//  FirstViewController.swift
-//  tryswiftconf
-//
-//  Created by Doan Truong Thi on 2/1/16.
-//
-//
-
 import UIKit
 
 class FirstViewController: UIViewController {
