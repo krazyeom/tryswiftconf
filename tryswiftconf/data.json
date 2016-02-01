@@ -1,0 +1,37 @@
+{
+	"talks":[
+		{
+			"date": "Wednesday, March 2nd",
+			"time": "09:00AM - 09:55AM",
+			"title": "Wake-up Coffee & Breakfast",
+			"speaker": ""
+		},
+		{
+			"date": "Wednesday, March 2nd",
+			"time": "10:00AM - 10:25AM",
+			"title": "",
+			"speaker": "Syo Ikeda"
+		},
+		{
+			"date": "Wednesday, March 2nd",
+			"time": "10:30AM - 10:55AM",
+			"title": "",
+			"speaker": "JP Simard"
+		},
+		{
+			"date": "Wednesday, March 2nd",
+			"time": "11:00AM - 11:25AM",
+			"title": "Coffee / Tea Break",
+			"speaker": ""
+		},
+		{
+			"date": "Wednesday, March 2nd",
+			"time": "11:30AM - 11:55AM",
+			"title": "",
+			"speaker": "Laura Savino"
+		}
+	],
+	"speakers": [
+	]
+
+}
