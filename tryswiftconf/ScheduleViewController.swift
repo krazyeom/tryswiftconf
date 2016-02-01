@@ -6,24 +6,15 @@ class ScheduleViewController: UIViewController, UITableViewDelegate, UITableView
 
     @IBOutlet weak var tableView: UITableView!
 
-    var appData: AppData!
-
     override func viewDidLoad() {
         super.viewDidLoad()
 
         title = "Schedule"
-        loadDataSource()
-    }
-
-    func loadDataSource() {
-        let url = NSBundle.mainBundle().URLForResource("data", withExtension: "json")
-        let jsonData = NSData(contentsOfURL: url!)
-        let json = JSON(data: jsonData!)
-        appData = Mapper<AppData>().map(json.dictionaryObject)!
     }
 
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = UITableViewCell(style: .Subtitle, reuseIdentifier: "TalkIdentifier")
+        let appData = AppDelegate.app().appData!
         let talk = appData.talks![indexPath.row]
 
         cell.textLabel?.text = talk.title == nil ? talk.speaker : talk.title
@@ -46,7 +37,7 @@ class ScheduleViewController: UIViewController, UITableViewDelegate, UITableView
     }
 
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return appData.numberOfTalksOnDay(section)
+        return AppDelegate.app().appData!.numberOfTalksOnDay(section)
     }
 
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {

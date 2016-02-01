@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		840AF37B1C5F67350054D8E3 /* SpeakersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840AF37A1C5F67350054D8E3 /* SpeakersViewController.swift */; };
 		84C690311C5F311900A2A7E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C690301C5F311900A2A7E5 /* AppDelegate.swift */; };
-		84C690331C5F311900A2A7E5 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C690321C5F311900A2A7E5 /* FirstViewController.swift */; };
-		84C690351C5F311900A2A7E5 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C690341C5F311900A2A7E5 /* SecondViewController.swift */; };
 		84C690381C5F311900A2A7E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C690361C5F311900A2A7E5 /* Main.storyboard */; };
 		84C6903A1C5F311900A2A7E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C690391C5F311900A2A7E5 /* Assets.xcassets */; };
 		84C6903D1C5F311900A2A7E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C6903B1C5F311900A2A7E5 /* LaunchScreen.storyboard */; };
@@ -32,10 +31,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		840AF37A1C5F67350054D8E3 /* SpeakersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeakersViewController.swift; sourceTree = "<group>"; };
 		84C6902D1C5F311900A2A7E5 /* tryswiftconf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tryswiftconf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C690301C5F311900A2A7E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84C690321C5F311900A2A7E5 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		84C690341C5F311900A2A7E5 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		84C690371C5F311900A2A7E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84C690391C5F311900A2A7E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84C6903C1C5F311900A2A7E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -93,10 +91,9 @@
 			isa = PBXGroup;
 			children = (
 				84C690301C5F311900A2A7E5 /* AppDelegate.swift */,
-				84C690321C5F311900A2A7E5 /* FirstViewController.swift */,
-				84C690521C5F341200A2A7E5 /* ScheduleViewController.swift */,
 				84C6905C1C5F41D900A2A7E5 /* AppData.swift */,
-				84C690341C5F311900A2A7E5 /* SecondViewController.swift */,
+				84C690521C5F341200A2A7E5 /* ScheduleViewController.swift */,
+				840AF37A1C5F67350054D8E3 /* SpeakersViewController.swift */,
 				84C690361C5F311900A2A7E5 /* Main.storyboard */,
 				84C690391C5F311900A2A7E5 /* Assets.xcassets */,
 				84C6903B1C5F311900A2A7E5 /* LaunchScreen.storyboard */,
@@ -245,9 +242,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84C690351C5F311900A2A7E5 /* SecondViewController.swift in Sources */,
+				840AF37B1C5F67350054D8E3 /* SpeakersViewController.swift in Sources */,
 				84C690311C5F311900A2A7E5 /* AppDelegate.swift in Sources */,
-				84C690331C5F311900A2A7E5 /* FirstViewController.swift in Sources */,
 				84C6905D1C5F41D900A2A7E5 /* AppData.swift in Sources */,
 				84C690531C5F341200A2A7E5 /* ScheduleViewController.swift in Sources */,
 			);
