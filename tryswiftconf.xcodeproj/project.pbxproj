@@ -18,6 +18,7 @@
 		84C6905A1C5F401800A2A7E5 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C690591C5F401800A2A7E5 /* SwiftyJSON.framework */; };
 		84C6905D1C5F41D900A2A7E5 /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6905C1C5F41D900A2A7E5 /* AppData.swift */; };
 		84C6905F1C5F43A700A2A7E5 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C6905E1C5F43A700A2A7E5 /* ObjectMapper.framework */; };
+		CEC29DF61C70793700636E70 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC29DF51C70793700636E70 /* TableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		84C690591C5F401800A2A7E5 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
 		84C6905C1C5F41D900A2A7E5 /* AppData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
 		84C6905E1C5F43A700A2A7E5 /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = Carthage/Build/iOS/ObjectMapper.framework; sourceTree = "<group>"; };
+		CEC29DF51C70793700636E70 /* TableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				84C690301C5F311900A2A7E5 /* AppDelegate.swift */,
 				84C6905C1C5F41D900A2A7E5 /* AppData.swift */,
 				84C690521C5F341200A2A7E5 /* ScheduleViewController.swift */,
+				CEC29DF51C70793700636E70 /* TableCell.swift */,
 				840AF37A1C5F67350054D8E3 /* SpeakersViewController.swift */,
 				84C690361C5F311900A2A7E5 /* Main.storyboard */,
 				84C690391C5F311900A2A7E5 /* Assets.xcassets */,
@@ -242,6 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEC29DF61C70793700636E70 /* TableCell.swift in Sources */,
 				840AF37B1C5F67350054D8E3 /* SpeakersViewController.swift in Sources */,
 				84C690311C5F311900A2A7E5 /* AppDelegate.swift in Sources */,
 				84C6905D1C5F41D900A2A7E5 /* AppData.swift in Sources */,

@@ -5,7 +5,7 @@ import UIKit
 class ScheduleViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet weak var tableView: UITableView!
-
+  
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -13,14 +13,20 @@ class ScheduleViewController: UIViewController, UITableViewDelegate, UITableView
     }
 
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = UITableViewCell(style: .Subtitle, reuseIdentifier: "TalkIdentifier")
+        let cell = tableView.dequeueReusableCellWithIdentifier("TalkIdentifier", forIndexPath: indexPath) as! TableCell
         let appData = AppDelegate.app().appData!
         let talk = appData.talks![indexPath.row]
 
-        cell.textLabel?.text = talk.title == nil ? talk.speaker : talk.title
-        cell.detailTextLabel?.text = talk.time!
-        cell.detailTextLabel?.textColor = .darkGrayColor()
-
+      
+        cell.titleText?.text = talk.title == nil ? talk.speaker : talk.title
+        cell.subtitleText?.text = talk.time!
+        cell.subtitleText?.textColor = .darkGrayColor()
+        var imageName = talk.title == nil ? talk.speaker?.stringByReplacingOccurrencesOfString(" ", withString: "") : "coffee"
+        if imageName == "BorisBügling" {
+            imageName = "BorisBugling"
+        }
+        cell.speakerImage.image = UIImage(imageLiteral: imageName!)
+      
         return cell
     }
 
